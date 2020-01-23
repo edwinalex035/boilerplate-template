@@ -21,7 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <checkstyle.config.location>${project.basedir}/custom_google_checks.xml</checkstyle.config.location>
         <checkstyle-maven-plugin.version>3.1.0</checkstyle-maven-plugin.version>
-        <checkstyle-puppycrawl-tools.version>8.8</checkstyle-puppycrawl-tools.version>
+        <checkstyle-puppycrawl-tools.version>8.18</checkstyle-puppycrawl-tools.version>
         <jacoco-plugin.version>0.8.5</jacoco-plugin.version>
         <formatter-plugin.version>2.11.0</formatter-plugin.version>
         <findbugs-plugin.version>3.0.5</findbugs-plugin.version>
