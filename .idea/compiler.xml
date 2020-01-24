@@ -7,13 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boilerplatetemplate" />
+        <module name="rest-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boilerplate-template" options="-parameters" />
       <module name="boilerplatetemplate" options="-parameters" />
+      <module name="rest-api" options="-parameters" />
     </option>
   </component>
 </project>
