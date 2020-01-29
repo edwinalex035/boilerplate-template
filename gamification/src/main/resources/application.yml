@@ -1,2 +1,11 @@
 server:
   port: 8081
+
+#RabbitMQ Configuration
+multiplication:
+  exchange: multiplication_exchange
+  solved:
+    key: multiplication.solved
+  queue: gamification_multiplication_queue
+  anything:
+    routing-key: "multiplication.*"
