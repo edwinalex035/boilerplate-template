@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="" />
+    <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamification/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="PIfTwlJz" />
@@ -17,11 +35,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1908" />
     <option name="y" value="-12" />
     <option name="width" value="1946" />
     <option name="height" value="2106" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,6 +75,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="147" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580315942416" />
     <state x="385" y="96" key="new project wizard" timestamp="1580315043934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
