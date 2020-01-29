@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework: DEBUG
+
+spring:
+  application:
+    name: rest-api
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
