@@ -16,6 +16,8 @@ import microservices.book.gamification.models.GameStats;
 import microservices.book.gamification.models.ScoreCard;
 import microservices.book.gamification.repositories.BadgeCardRepository;
 import microservices.book.gamification.repositories.ScoreCardRepository;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -25,7 +27,7 @@ import org.mockito.MockitoAnnotations;
  */
 public class GameServiceImplTest {
 
-    private GameService gameService;
+    private GameServiceImpl gameService;
 
     @Mock
     private ScoreCardRepository scoreCardRepository;
@@ -33,8 +35,12 @@ public class GameServiceImplTest {
     @Mock
     private BadgeCardRepository badgeCardRepository;
 
-    //@Mock
-    //private MultiplicationResultAttemptClient multiplicationClient;
+    @BeforeEach
+    public void setUp() {
+        // With this call to initMocks we tell Mockito to process the annotations
+        MockitoAnnotations.initMocks(this);
+        gameService = new GameServiceImpl(scoreCardRepository, badgeCardRepository);
+    }
 
     @Test
     public void processFirstCorrectAttemptTest() {

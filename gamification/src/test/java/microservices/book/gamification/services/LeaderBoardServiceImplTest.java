@@ -9,6 +9,8 @@ import microservices.book.gamification.models.LeaderBoardRow;
 import microservices.book.gamification.repositories.BadgeCardRepository;
 import microservices.book.gamification.repositories.ScoreCardRepository;
 
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -17,7 +19,7 @@ import org.mockito.MockitoAnnotations;
  * @author moises.macero
  */
 public class LeaderBoardServiceImplTest {
-    private GameService gameService;
+    private GameServiceImpl gameService;
 
     private LeaderBoardService leaderBoardService;
 
@@ -26,6 +28,12 @@ public class LeaderBoardServiceImplTest {
 
     @Mock
     private BadgeCardRepository badgeCardRepository;
+
+    @BeforeEach
+    public void setUp() {
+        MockitoAnnotations.initMocks(this);
+        leaderBoardService = new LeaderBoardServiceImpl(scoreCardRepository);
+    }
 
     @Test
     public void retrieveLeaderBoardTest() {
