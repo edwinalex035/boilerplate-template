@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamification/src/test/java/microservices/book/gamification/services/GameServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamification/src/test/java/microservices/book/gamification/services/GameServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamification/src/test/java/microservices/book/gamification/services/LeaderBoardServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamification/src/test/java/microservices/book/gamification/services/LeaderBoardServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gamification/src/test/java/microservices/book/gamification/services" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +65,7 @@
       <recent name="C:\Users\edwin\Documents\Workspaces\Personal\Microservices\Spring\boilerplatetemplate" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeaderBoardServiceImplTest">
+  <component name="RunManager" selected="JUnit.UserStatsControllerTest">
     <configuration name="GameServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gamification" />
       <extension name="coverage">
@@ -74,6 +76,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="microservices.book.gamification.services" />
       <option name="MAIN_CLASS_NAME" value="microservices.book.gamification.services.GameServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeaderBoardControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.gamification.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.gamification.controllers" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.gamification.controllers.LeaderBoardControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,8 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserStatsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gamification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.gamification.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.gamification.controllers" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.gamification.controllers.UserStatsControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserStatsControllerTest" />
+        <item itemvalue="JUnit.LeaderBoardControllerTest" />
         <item itemvalue="JUnit.LeaderBoardServiceImplTest" />
         <item itemvalue="JUnit.GameServiceImplTest" />
       </list>
@@ -115,45 +149,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580326204774">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580327612808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580326204774" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580326204773">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580327612808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580327612808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580326204773" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580326204773">
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580327612808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580327612808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580326204773" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580326204774">
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580327612808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580327612808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580326204774" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580327612808" />
     <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="147" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580315942416" />
+    <state x="441" y="96" key="SettingsEditor" timestamp="1580327157719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580327157719" />
     <state x="385" y="96" key="new project wizard" timestamp="1580315043934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="385" y="96" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580315043934" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
