@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import lombok.extern.slf4j.Slf4j;
+import microservices.book.gamification.clients.MultiplicationResultAttemptClient;
+import microservices.book.gamification.clients.dtos.MultiplicationResultAttempt;
 import microservices.book.gamification.models.Badge;
 import microservices.book.gamification.models.BadgeCard;
 import microservices.book.gamification.models.GameStats;
@@ -17,13 +19,18 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class GameServiceImpl implements GameService {
 
+  public static final int LUCKY_NUMBER = 42;
+
   private ScoreCardRepository scoreCardRepository;
   private BadgeCardRepository badgeCardRepository;
+  private MultiplicationResultAttemptClient attemptClient;
 
   GameServiceImpl(ScoreCardRepository scoreCardRepository,
-      BadgeCardRepository badgeCardRepository) {
+      BadgeCardRepository badgeCardRepository, MultiplicationResultAttemptClient attemptClient) {
     this.scoreCardRepository = scoreCardRepository;
     this.badgeCardRepository = badgeCardRepository;
+    this.attemptClient = attemptClient;
+
   }
 
   @Override
@@ -69,6 +76,17 @@ public class GameServiceImpl implements GameService {
         !containsBadge(badgeCardList, Badge.FIRST_WON)) {
       BadgeCard firstWonBadge = giveBadgeToUser(Badge.FIRST_WON, userId);
       badgeCards.add(firstWonBadge);
+    }
+
+    // Lucky number badge
+    MultiplicationResultAttempt attempt = attemptClient
+        .retrieveMultiplicationResultAttemptbyId(attemptId);
+    if(!containsBadge(badgeCardList, Badge.LUCKY_NUMBER) &&
+        (LUCKY_NUMBER == attempt.getMultiplicationFactorA() ||
+            LUCKY_NUMBER == attempt.getMultiplicationFactorB())) {
+      BadgeCard luckyNumberBadge = giveBadgeToUser(
+          Badge.LUCKY_NUMBER, userId);
+      badgeCards.add(luckyNumberBadge);
     }
     return badgeCards;
   }

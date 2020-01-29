@@ -5,18 +5,17 @@ package microservices.book.gamification.services;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
+import static org.mockito.Matchers.anyLong;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import microservices.book.gamification.models.Badge;
-import microservices.book.gamification.models.BadgeCard;
-import microservices.book.gamification.models.GameStats;
-import microservices.book.gamification.models.ScoreCard;
+import microservices.book.gamification.clients.MultiplicationResultAttemptClient;
+import microservices.book.gamification.clients.dtos.MultiplicationResultAttempt;
+import microservices.book.gamification.models.*;
 import microservices.book.gamification.repositories.BadgeCardRepository;
 import microservices.book.gamification.repositories.ScoreCardRepository;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -35,11 +34,20 @@ public class GameServiceImplTest {
     @Mock
     private BadgeCardRepository badgeCardRepository;
 
+    @Mock
+    private MultiplicationResultAttemptClient multiplicationClient;
+
     @BeforeEach
     public void setUp() {
         // With this call to initMocks we tell Mockito to process the annotations
         MockitoAnnotations.initMocks(this);
-        gameService = new GameServiceImpl(scoreCardRepository, badgeCardRepository);
+        gameService = new GameServiceImpl(scoreCardRepository, badgeCardRepository, multiplicationClient);
+
+        // Common given - attempt does not contain a lucky number by default
+        MultiplicationResultAttempt attempt = new MultiplicationResultAttempt(
+                "john_doe", 20, 70, 1400, true);
+        given(multiplicationClient.retrieveMultiplicationResultAttemptbyId(anyLong()))
+                .willReturn(attempt);
     }
 
     @Test
@@ -107,17 +115,17 @@ public class GameServiceImplTest {
         given(badgeCardRepository.findByUserIdOrderByBadgeTimestampDesc(userId))
                 .willReturn(Collections.singletonList(firstWonBadge));
         // the attempt includes the lucky number
-        //MultiplicationResultAttempt attempt = new MultiplicationResultAttempt(
-         //       "john_doe", 42, 10, 420, true);
-        //given(multiplicationClient.retrieveMultiplicationResultAttemptbyId(attemptId))
-         //       .willReturn(attempt);
+        MultiplicationResultAttempt attempt = new MultiplicationResultAttempt(
+                "john_doe", 42, 10, 420, true);
+        given(multiplicationClient.retrieveMultiplicationResultAttemptbyId(attemptId))
+                  .willReturn(attempt);
 
         // when
         GameStats iteration = gameService.newAttemptForUser(userId, attemptId, true);
 
         // assert - should score one card and win the badge LUCKY NUMBER
         assertThat(iteration.getScore()).isEqualTo(ScoreCard.DEFAULT_SCORE);
-        //assertThat(iteration.getBadges()).containsOnly(Badge.LUCKY_NUMBER);
+        assertThat(iteration.getBadges()).containsOnly(Badge.LUCKY_NUMBER);
     }
 
     @Test

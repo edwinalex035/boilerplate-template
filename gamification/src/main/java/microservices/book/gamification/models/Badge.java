@@ -11,5 +11,6 @@ public enum Badge {
   GOLD_MULTIPLICATOR,
   // Other badges won for different conditions
   FIRST_ATTEMPT,
-  FIRST_WON
+  FIRST_WON,
+  LUCKY_NUMBER,
 }
