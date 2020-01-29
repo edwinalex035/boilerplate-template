@@ -12,3 +12,18 @@ multiplication:
 
 # REST client settings
 multiplicationHost: http://localhost:8080
+
+spring:
+  datasource:
+    # Creates the database in a file
+    url: jdbc:h2:file:~/gamification;
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+    hibernate:
+      # Generates the database *only* if it's not there yet
+      ddl-auto: update
+  h2:
+    # Gives us access to the H2 database web console
+    console: true
