@@ -1,13 +1,16 @@
 package microservices.book.multiplication.services;
 
+import java.util.Random;
 import org.springframework.stereotype.Service;
 
 @Service
-class RandomGeneratorServiceImpl implements
-    RandomGeneratorService {
+class RandomGeneratorServiceImpl implements RandomGeneratorService {
+
+  final static int MINIMUM_FACTOR = 11;
+  final static int MAXIMUM_FACTOR = 99;
 
   @Override
   public int generateRandomFactor() {
-    return 0;
+    return new Random().nextInt((MAXIMUM_FACTOR - MINIMUM_FACTOR) + 1) + MINIMUM_FACTOR;
   }
 }

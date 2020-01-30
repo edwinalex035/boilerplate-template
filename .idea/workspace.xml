@@ -4,6 +4,7 @@
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/RandomGeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/RandomGeneratorServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,21 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gamification" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.book.gamification.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.book.gamification.services" />
-      <option name="MAIN_CLASS_NAME" value="microservices.book.gamification.services.GameServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiplicationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-multiplication" />
       <extension name="coverage">
@@ -129,6 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomGeneratorServiceImplTest.generateRandomFactorIsBetweenExpectedLimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.services" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.services.RandomGeneratorServiceImplTest" />
+      <option name="METHOD_NAME" value="generateRandomFactorIsBetweenExpectedLimits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomGeneratorServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-multiplication" />
       <extension name="coverage">
@@ -148,9 +150,9 @@
       <list>
         <item itemvalue="JUnit.RandomGeneratorServiceImplTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceTest" />
+        <item itemvalue="JUnit.RandomGeneratorServiceImplTest.generateRandomFactorIsBetweenExpectedLimits" />
         <item itemvalue="JUnit.MultiplicationServiceTest" />
         <item itemvalue="Application.GamificationApplication" />
-        <item itemvalue="JUnit.GameServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +174,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="387" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580330986021" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580398212376">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580398454187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580398212376" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580398212376">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580398454187" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580398454186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580398212376" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580398212376">
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580398454186" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580398454186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580398212376" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580398212376">
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580398454186" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580398454187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580398212376" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580398454187" />
     <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
