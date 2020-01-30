@@ -1,6 +1,7 @@
 package microservices.book.multiplication.services;
 
 import microservices.book.multiplication.models.Multiplication;
+import microservices.book.multiplication.models.MultiplicationResultAttempt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,5 +24,10 @@ class MultiplicationServiceImpl implements
     int factorB = randomGeneratorService.
         generateRandomFactor();
     return new Multiplication(factorA, factorB);
+  }
+
+  @Override
+  public boolean checkAttempt(final MultiplicationResultAttempt resultAttempt) {
+    return false;
   }
 }
