@@ -1,0 +1,16 @@
+# Gives us access to the H2 database web console
+spring:
+  h2:
+    console:
+      enabled: true
+  # Generates the database *only* if it's not there yet
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+  # Creates the database in a file
+  datasource:
+    url: jdbc:h2:file:~/social-multiplication;DB_CLOSE_ON_EXIT=FALSE;
+  # For educational purposes we will show the SQL in console
