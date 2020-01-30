@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,22 @@
       <recent name="C:\Users\edwin\Documents\Workspaces\Personal\Microservices\Spring\boilerplatetemplate" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplicationServiceImplTest">
+  <component name="RunManager" selected="JUnit.MultiplicationControllerTest">
+    <configuration name="MultiplicationControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.controllers" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.controllers.MultiplicationControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiplicationServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-multiplication" />
       <extension name="coverage">
@@ -81,21 +95,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="microservices.book.multiplication.services" />
       <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.services.MultiplicationServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiplicationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="social-multiplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.book.multiplication.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.book.multiplication.services" />
-      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.services.MultiplicationServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiplicationControllerTest" />
         <item itemvalue="JUnit.MultiplicationServiceImplTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceImplTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceImplTest.generateRandomFactorIsBetweenExpectedLimits" />
-        <item itemvalue="JUnit.MultiplicationServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +174,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="387" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580330986021" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580400106221">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580400946808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580400106221" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580400106221">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580400946808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580400106221" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580400106221">
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580400946808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580400106221" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580400106221">
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580400946808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580400106221" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
     <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580327157719" />
-    <state x="775" y="299" key="chooseDestDirectoryDialog" timestamp="1580345057673">
+    <state x="775" y="299" key="chooseDestDirectoryDialog" timestamp="1580400441156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="299" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580345057673" />
+    <state x="775" y="299" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580400441156" />
     <state x="385" y="96" key="new project wizard" timestamp="1580344420891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
