@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gamification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,9 +198,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580327157719" />
-    <state x="385" y="96" key="new project wizard" timestamp="1580315043934">
+    <state x="385" y="96" key="new project wizard" timestamp="1580344420891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="385" y="96" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580315043934" />
+    <state x="385" y="96" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580344420891" />
   </component>
 </project>

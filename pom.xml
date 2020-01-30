@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>gamification</module>
+        <module>social-multiplication</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
