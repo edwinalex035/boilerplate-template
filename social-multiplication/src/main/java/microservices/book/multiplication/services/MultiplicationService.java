@@ -1,5 +1,6 @@
 package microservices.book.multiplication.services;
 
+import java.util.List;
 import microservices.book.multiplication.models.Multiplication;
 import microservices.book.multiplication.models.MultiplicationResultAttempt;
 
@@ -16,4 +17,10 @@ public interface MultiplicationService {
    * @return true if the attempt matches the result of the multiplication, false otherwise.
    */
   boolean checkAttempt(final MultiplicationResultAttempt resultAttempt);
+
+  /**
+   * @param userAlias user's alias
+   * @return latest 5 Multiplication attempts
+   */
+  public List<MultiplicationResultAttempt> getStatsForUser(String userAlias);
 }
