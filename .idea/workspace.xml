@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="" />
+    <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/models/MultiplicationResultAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/models/MultiplicationResultAttempt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/test/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/test/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/test/java/microservices/book/multiplication/services/MultiplicationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/test/java/microservices/book/multiplication/services/MultiplicationServiceImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +42,6 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="y" value="-12" />
-    <option name="width" value="1946" />
-    <option name="height" value="2106" />
-  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -67,7 +68,7 @@
       <recent name="C:\Users\edwin\Documents\Workspaces\Personal\Microservices\Spring\boilerplatetemplate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SocialMultiplicationApplication">
+  <component name="RunManager" selected="JUnit.MultiplicationResultAttemptControllerTest">
     <configuration name="SocialMultiplicationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.SocialMultiplicationApplication" />
       <module name="social-multiplication" />
@@ -143,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SocialMultiplicationApplication" />
         <item itemvalue="JUnit.MultiplicationResultAttemptControllerTest" />
+        <item itemvalue="Application.SocialMultiplicationApplication" />
         <item itemvalue="JUnit.MultiplicationControllerTest" />
         <item itemvalue="JUnit.MultiplicationServiceImplTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceImplTest" />
