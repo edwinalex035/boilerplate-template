@@ -69,7 +69,7 @@
       <recent name="C:\Users\edwin\Documents\Workspaces\Personal\Microservices\Spring\boilerplatetemplate" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplicationControllerTest">
+  <component name="RunManager" selected="JUnit.MultiplicationResultAttemptControllerTest">
     <configuration name="MultiplicationControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-multiplication" />
       <extension name="coverage">
@@ -80,6 +80,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="microservices.book.multiplication.controllers" />
       <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.controllers.MultiplicationControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationResultAttemptControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.controllers" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.controllers.MultiplicationResultAttemptControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,22 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomGeneratorServiceImplTest.generateRandomFactorIsBetweenExpectedLimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="social-multiplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.book.multiplication.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.book.multiplication.services" />
-      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.services.RandomGeneratorServiceImplTest" />
-      <option name="METHOD_NAME" value="generateRandomFactorIsBetweenExpectedLimits" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RandomGeneratorServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-multiplication" />
       <extension name="coverage">
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiplicationResultAttemptControllerTest" />
         <item itemvalue="JUnit.MultiplicationControllerTest" />
         <item itemvalue="JUnit.MultiplicationServiceImplTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceImplTest" />
         <item itemvalue="JUnit.RandomGeneratorServiceTest" />
-        <item itemvalue="JUnit.RandomGeneratorServiceImplTest.generateRandomFactorIsBetweenExpectedLimits" />
       </list>
     </recent_temporary>
   </component>
@@ -174,22 +173,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="387" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580330986021" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580400946808">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580402948256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580400946808">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580402948256" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580402948255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580400946808">
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580402948255" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580402948255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580400946808">
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580402948255" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580402948256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580400946808" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580402948256" />
     <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
