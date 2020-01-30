@@ -2,6 +2,8 @@ package microservices.book.multiplication.services;
 
 import java.util.List;
 import java.util.Optional;
+import microservices.book.multiplication.events.EventDispatcher;
+import microservices.book.multiplication.events.MultiplicationSolvedEvent;
 import microservices.book.multiplication.models.Multiplication;
 import microservices.book.multiplication.models.MultiplicationResultAttempt;
 import microservices.book.multiplication.models.User;
@@ -15,6 +17,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
 
@@ -30,13 +33,15 @@ public class MultiplicationServiceImplTest {
   private MultiplicationRepository multiplicationRepository;
   @Mock
   private UserRepository userRepository;
+  @Mock
+  private EventDispatcher eventDispatcher;
 
   @Before
   public void setUp() {
 // With this call to initMocks we tell Mockito to process the annotations
     MockitoAnnotations.initMocks(this);
     multiplicationServiceImpl = new MultiplicationServiceImpl(randomGeneratorService,
-        attemptRepository, multiplicationRepository, userRepository);
+        attemptRepository, multiplicationRepository, userRepository, eventDispatcher);
   }
 
   @Test
@@ -60,6 +65,8 @@ public class MultiplicationServiceImplTest {
         3000, false);
     MultiplicationResultAttempt verifiedAttempt = new MultiplicationResultAttempt(
         user, multiplication, 3000, true);
+    MultiplicationSolvedEvent event = new MultiplicationSolvedEvent(attempt.getId(),
+        attempt.getUser().getId(), true);
 
     given(userRepository.findByAlias("john_doe")).willReturn(Optional.empty());
     // when
@@ -67,6 +74,7 @@ public class MultiplicationServiceImplTest {
     // assert
     assertThat(attemptResult).isTrue();
     verify(attemptRepository).save(verifiedAttempt);
+    verify(eventDispatcher).send(eq(event));
   }
 
   @Test
