@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boilerplatetemplate" />
         <module name="gamification" />
+        <module name="gateway" />
         <module name="social-multiplication" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="boilerplate-template" options="-parameters" />
       <module name="boilerplatetemplate" options="-parameters" />
       <module name="gamification" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="social-multiplication" options="-parameters" />
     </option>
   </component>
