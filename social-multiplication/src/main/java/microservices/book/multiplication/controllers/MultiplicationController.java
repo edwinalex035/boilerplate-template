@@ -1,5 +1,6 @@
 package microservices.book.multiplication.controllers;
 
+import lombok.extern.slf4j.Slf4j;
 import microservices.book.multiplication.models.Multiplication;
 import microservices.book.multiplication.services.MultiplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * This class implements a REST API for our Multiplication application.
  */
+@Slf4j
 @RestController
 @RequestMapping("/multiplications")
 public class MultiplicationController {
@@ -23,6 +25,7 @@ public class MultiplicationController {
 
   @GetMapping("/random")
   Multiplication getRandomMultiplication() {
+    log.info("Getting random numbers");
     return multiplicationService.createRandomMultiplication();
   }
 }
