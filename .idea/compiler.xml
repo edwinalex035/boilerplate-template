@@ -10,6 +10,7 @@
         <module name="gamification" />
         <module name="gateway" />
         <module name="social-multiplication" />
+        <module name="service-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -23,6 +24,7 @@
       <module name="boilerplatetemplate" options="-parameters" />
       <module name="gamification" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
       <module name="social-multiplication" options="-parameters" />
     </option>
   </component>

@@ -8,6 +8,7 @@
         <module>gamification</module>
         <module>social-multiplication</module>
       <module>gateway</module>
+        <module>service-registry</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

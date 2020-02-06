@@ -31,3 +31,7 @@ build/
 ### VS Code ###
 .vscode/
 !/.idea/
+/.idea/
+build-tools/
+gateway/src/main/java/com/de/gateway/conf/
+gateway/src/test/
