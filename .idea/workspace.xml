@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/conf/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/conf/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/de/gateway/conf/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/de/gateway/conf/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/conf/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/conf/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controllers/MultiplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controllers/MultiplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/events/MultiplicationSolvedEvent.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
