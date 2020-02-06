@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamification/src/main/java/microservices/book/gamification/events/MultiplicationSolvedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gamification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/main/java/microservices/book/multiplication/services/MultiplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-multiplication/src/test/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-multiplication/src/test/java/microservices/book/multiplication/controllers/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,22 +176,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="391" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1580420992500" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1580835228262">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1581005756078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580835228262" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1580835228261">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581005756078" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1581005756077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580835228261" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1580835228261">
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581005756077" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1581005756077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580835228261" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1580835228262">
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581005756077" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1581005756077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580835228262" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581005756077" />
     <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -23,4 +23,6 @@ public interface MultiplicationService {
    * @return latest 5 Multiplication attempts
    */
   public List<MultiplicationResultAttempt> getStatsForUser(String userAlias);
+
+  public MultiplicationResultAttempt getResultById(final Long resultId);
 }

@@ -26,4 +26,5 @@ spring:
       ddl-auto: update
   h2:
     # Gives us access to the H2 database web console
-    console: true
+    console:
+      enabled: true

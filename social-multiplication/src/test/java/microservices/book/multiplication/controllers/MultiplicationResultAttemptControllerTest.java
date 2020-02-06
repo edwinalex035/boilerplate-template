@@ -9,7 +9,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
 import javax.naming.ldap.PagedResultsResponseControl;
-import microservices.book.multiplication.controllers.MultiplicationResultAttemptController.ResultResponse;
 import microservices.book.multiplication.models.Multiplication;
 import microservices.book.multiplication.models.MultiplicationResultAttempt;
 import microservices.book.multiplication.models.User;

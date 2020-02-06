@@ -9,6 +9,7 @@ import microservices.book.multiplication.services.MultiplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -45,11 +46,10 @@ final class MultiplicationResultAttemptController {
     return ResponseEntity.ok(attemptCopy);
   }
 
-  @RequiredArgsConstructor
-  @NoArgsConstructor(force = true)
-  @Getter
-  public static final class ResultResponse {
-
-    private final boolean correct;
+  @GetMapping("/{resultId}")
+  ResponseEntity<MultiplicationResultAttempt> getResultById(final @PathVariable("resultId") Long resultId) {
+    return ResponseEntity.ok(
+        multiplicationService.getResultById(resultId)
+    );
   }
 }
