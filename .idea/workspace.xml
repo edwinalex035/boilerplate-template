@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a516a42-a80f-4c7b-8d2d-b3fb1a0b7d4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -176,26 +173,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="391" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1580420992500" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1581010347537">
+    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog" timestamp="1581011636944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581010347537" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1581010347537">
+    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581011636944" />
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1581011371573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581010347537" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1581010347537">
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581011371573" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1581011371573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581010347537" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1581010347537">
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581011371573" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1581011371573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581010347537" />
-    <state x="576" y="147" key="RollbackChangesDialog" timestamp="1580315942416">
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581011371573" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1581011371573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="147" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580315942416" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581011371573" />
+    <state x="576" y="147" key="RollbackChangesDialog" timestamp="1581011436195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="147" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581011436195" />
     <state x="441" y="96" key="SettingsEditor" timestamp="1580327157719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
