@@ -16,7 +16,7 @@ multiplicationHost: http://localhost:8000/api
 spring:
   datasource:
     # Creates the database in a file
-    url: jdbc:h2:file:~/gamification;
+    url: jdbc:h2:file:~/gamification;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
   jpa:
     properties:
       hibernate:
